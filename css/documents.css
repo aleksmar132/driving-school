@@ -1,0 +1,57 @@
+.documents h2 {
+    padding-bottom: 74px;
+    color: #000;
+    text-align: center;
+}
+.documents-card {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.documents-card_content {
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 172px; 
+    text-align: center; 
+}
+.documents-card_content-img {
+    content: "";
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 167px;
+    height: 167px;
+    background: #c4c4c4;
+    border-radius: 50px;
+}
+.documents-card_content-img-paste::before {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 100px;
+    background: url(../assets/images/paste.png) no-repeat;
+}
+.documents-card_content-img-folder::before {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 100px;
+    background: url(../assets/images/folder.png) no-repeat;
+}
+.documents-card_content-img-face::before {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 100px;
+    background: url(../assets/images/face.png) no-repeat;
+}
+.documents-card_content-img-rist::before {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 100px;
+    background: url(../assets/images/rist.png) no-repeat;
+}
